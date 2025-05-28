@@ -1,0 +1,12 @@
+[
+  {
+    "key": "ctrl+e",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "renameFile",
+    "when": "editorFocus"
+  }
+]
