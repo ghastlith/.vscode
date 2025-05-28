@@ -1,0 +1,20 @@
+{
+  // editor
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  // files
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  // file extensions
+  "[svelte]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  // extensions
+  "prettier.documentSelectors": [ "**/*.svelte" ],
+}
