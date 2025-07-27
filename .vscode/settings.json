@@ -7,7 +7,7 @@
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  // file extensions
+  // file types
   "[svelte]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -16,6 +16,13 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
+  "[java]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+  },
   // extensions
-  "prettier.documentSelectors": [ "**/*.svelte" ],
+  "prettier.documentSelectors": [
+    "**/*.svelte"
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic",
 }
