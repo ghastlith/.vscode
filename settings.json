@@ -17,7 +17,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[java]": {
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "editor.tabSize": 4,
   },
   // extensions
