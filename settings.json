@@ -3,26 +3,33 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
+
   // files
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+
   // file types
-  "[svelte]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
   "[java]": {
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
   },
+
+  "[svelte]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+
+  // configuration
+  "java.configuration.updateBuildConfiguration": "automatic",
+
   // extensions
   "prettier.documentSelectors": [
     "**/*.svelte"
   ],
-  "java.configuration.updateBuildConfiguration": "automatic",
 }
