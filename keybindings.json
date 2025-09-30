@@ -8,5 +8,10 @@
     "key": "ctrl+alt+r",
     "command": "renameFile",
     "when": "editorFocus"
+  },
+  {
+    "key": "f11",
+    "command": "workbench.action.toggleZenMode",
+    "when": "!isAuxiliaryWindowFocusedContext"
   }
 ]
