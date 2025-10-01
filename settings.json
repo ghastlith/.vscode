@@ -30,7 +30,6 @@
   "java.configuration.updateBuildConfiguration": "automatic",
 
   // extensions
-  "prettier.documentSelectors": [
-    "**/*.svelte"
-  ],
+  "prettier.documentSelectors": [ "**/*.svelte" ],
+  "gitlens.codeLens.authors.enabled": false,
 }
