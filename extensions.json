@@ -23,6 +23,7 @@
     "ms-python.vscode-pylance",
     "ms-vscode-remote.remote-containers",
     "ms-vscode.vscode-typescript-next",
+    "naco-siren.gradle-language",
     "pmneo.tsimporter",
     "redhat.java",
     "redhat.vscode-xml",
