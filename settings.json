@@ -26,6 +26,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
 
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
   // configuration
   "java.configuration.updateBuildConfiguration": "automatic",
 
