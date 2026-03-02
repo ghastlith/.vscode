@@ -3,40 +3,35 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
-  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.codeLens": false,
 
   // files
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
+  // disable AI
+  "chat.disableAIFeatures": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+  // extensions
+  "prettier.documentSelectors": ["**/*.svelte"],
+  "gitlens.codeLens.authors.enabled": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+
   // file types
   "[java]": {
     "editor.formatOnSave": false,
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
 
   "[svelte]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   },
 
   "[typescript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-
-  "[php]": {
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-
-  // configuration
-  "java.configuration.updateBuildConfiguration": "automatic",
-  "python.analysis.typeCheckingMode": "strict",
-
-  // extensions
-  "prettier.documentSelectors": [ "**/*.svelte" ],
-  "gitlens.codeLens.authors.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
