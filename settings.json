@@ -18,6 +18,7 @@
   "prettier.documentSelectors": ["**/*.svelte"],
   "gitlens.codeLens.authors.enabled": false,
   "java.configuration.updateBuildConfiguration": "automatic",
+  "scm.alwaysShowRepositories": true,
 
   // file types
   "[java]": {
