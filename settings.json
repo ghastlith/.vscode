@@ -4,6 +4,9 @@
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
   "editor.codeLens": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.restore": false,
 
   // files
   "files.trimFinalNewlines": true,
