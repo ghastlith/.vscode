@@ -25,6 +25,11 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
+    "key": "ctrl+o",
+    "command": "workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport && !isSessionsWindow"
+  },
+  {
     "key": "ctrl+r",
     "command": "workbench.action.reloadWindow",
     "when": ""
