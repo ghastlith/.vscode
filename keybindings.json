@@ -1,11 +1,6 @@
 [
   {
-    "key": "ctrl+e",
-    "command": "editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+alt+r",
+    "key": "f2",
     "command": "renameFile",
     "when": "editorFocus"
   },
@@ -20,8 +15,30 @@
     "when": "terminal.active"
   },
   {
+    "key": "ctrl+e",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
     "key": "ctrl+r",
     "command": "workbench.action.reloadWindow",
     "when": ""
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.openGlobalKeybindingsFile",
+    "when": ""
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "runCommands",
+    "when": "editorTextFocus && !editorReadonly",
+    "args": {
+      "commands": [
+        "editor.action.trimTrailingWhitespace",
+        "editor.action.insertFinalNewLine",
+        "workbench.action.files.saveWithoutFormatting"
+      ]
+    }
   }
 ]
