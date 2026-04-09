@@ -15,6 +15,11 @@
     "when": "terminal.active"
   },
   {
+    "key": "ctrl+.",
+    "command": "workbench.action.openGlobalKeybindingsFile",
+    "when": ""
+  },
+  {
     "key": "ctrl+e",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
@@ -22,11 +27,6 @@
   {
     "key": "ctrl+r",
     "command": "workbench.action.reloadWindow",
-    "when": ""
-  },
-  {
-    "key": "ctrl+k",
-    "command": "workbench.action.openGlobalKeybindingsFile",
     "when": ""
   },
   {
