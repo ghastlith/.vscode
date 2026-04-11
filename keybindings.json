@@ -15,6 +15,11 @@
     "when": "terminal.active"
   },
   {
+    "key": "ctrl+,",
+    "command": "workbench.action.openSettingsJson",
+    "when": ""
+  },
+  {
     "key": "ctrl+.",
     "command": "workbench.action.openGlobalKeybindingsFile",
     "when": ""
