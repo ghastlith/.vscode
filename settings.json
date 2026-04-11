@@ -15,6 +15,7 @@
   "files.trimTrailingWhitespace": true,
 
   // disable AI
+  "chat.agent.enabled": false,
   "chat.disableAIFeatures": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
 
