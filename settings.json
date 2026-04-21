@@ -13,6 +13,9 @@
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": false,
+  },
 
   // disable AI
   "chat.agent.enabled": false,
