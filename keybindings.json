@@ -20,7 +20,7 @@
     "when": ""
   },
   {
-    "key": "ctrl+.",
+    "key": "ctrl+m",
     "command": "workbench.action.openGlobalKeybindingsFile",
     "when": ""
   },
