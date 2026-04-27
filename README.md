@@ -9,3 +9,9 @@ As for the extensions, install every desired one by running the following comman
 ```sh
 code --install-extension ${extension-id}
 ```
+
+As a sanity check to see if all the extensions were successfully installed, the following command may be used.
+
+```sh
+code --list-extensions --show-versions
+```
