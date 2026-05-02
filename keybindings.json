@@ -38,17 +38,5 @@
     "key": "ctrl+d",
     "command": "workbench.action.debug.start",
     "when": "debuggersAvailable && debugState == 'inactive'"
-  },
-  {
-    "key": "ctrl+shift+s",
-    "command": "runCommands",
-    "when": "editorTextFocus && !editorReadonly",
-    "args": {
-      "commands": [
-        "editor.action.trimTrailingWhitespace",
-        "editor.action.insertFinalNewLine",
-        "workbench.action.files.saveWithoutFormatting"
-      ]
-    }
   }
 ]
