@@ -35,6 +35,11 @@
     "when": ""
   },
   {
+    "key": "ctrl+d",
+    "command": "workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
     "key": "ctrl+shift+s",
     "command": "runCommands",
     "when": "editorTextFocus && !editorReadonly",
