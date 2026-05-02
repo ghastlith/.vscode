@@ -20,11 +20,6 @@
     "when": ""
   },
   {
-    "key": "ctrl+m",
-    "command": "workbench.action.openGlobalKeybindingsFile",
-    "when": ""
-  },
-  {
     "key": "ctrl+e",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
@@ -38,5 +33,10 @@
     "key": "ctrl+d",
     "command": "workbench.action.debug.start",
     "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.openGlobalKeybindingsFile",
+    "when": ""
   }
 ]
