@@ -1,6 +1,6 @@
 [
   {
-    "key": "f2",
+    "key": "f1",
     "command": "renameFile",
     "when": "editorFocus"
   },
