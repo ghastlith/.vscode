@@ -19,6 +19,11 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
+  // disable specific file formatting
+  "[java][svelte][typescript]": {
+    "editor.formatOnSave": false
+  },
+
   // git
   "diffEditor.ignoreTrimWhitespace": false,
   "scm.alwaysShowRepositories": true,
