@@ -23,9 +23,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "scm.alwaysShowRepositories": true,
   "gitlens.codeLens.authors.enabled": false,
-  "files.exclude": {
-    "**/.git": false
-  },
 
   // java
   "[java]": {
