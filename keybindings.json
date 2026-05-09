@@ -38,5 +38,18 @@
     "key": "ctrl+m",
     "command": "workbench.action.openGlobalKeybindingsFile",
     "when": ""
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "runCommands",
+    "when": "editorTextFocus && !editorReadonly",
+    "args": {
+      "commands": [
+        "editor.action.organizeImports",
+        "editor.action.trimTrailingWhitespace",
+        "editor.action.insertFinalNewLine",
+        "workbench.action.files.saveWithoutFormatting"
+      ]
+    }
   }
 ]
