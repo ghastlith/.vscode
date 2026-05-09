@@ -1,9 +1,11 @@
 {
-  // editor theme
+  // editor
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
   "editor.codeLens": false,
+
+  // theme
   "workbench.colorTheme": "Dark Modern",
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
