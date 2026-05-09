@@ -41,7 +41,7 @@
   },
   {
     "key": "ctrl+shift+s",
-    "command": "workbench.action.files.saveWithoutFormatting",
+    "command": "workbench.action.files.save",
     "when": ""
   },
   {
@@ -51,7 +51,9 @@
     "args": {
       "commands": [
         "editor.action.organizeImports",
-        "workbench.action.files.save"
+        "editor.action.trimTrailingWhitespace",
+        "editor.action.insertFinalNewLine",
+        "workbench.action.files.saveWithoutFormatting"
       ]
     }
   }
