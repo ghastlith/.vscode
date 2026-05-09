@@ -26,7 +26,7 @@
 
   // java
   "[java]": {
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "redhat.java"
   },
   "java.configuration.updateBuildConfiguration": "automatic",
   "java.test.config": {
