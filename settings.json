@@ -32,6 +32,7 @@
   "java.test.config": {
     "vmArgs": ["-XX:+EnableDynamicAgentLoading"]
   },
+  "spring-boot.ls.problem.application-properties.PROP_UNKNOWN_PROPERTY": "IGNORE",
 
   // svelte
   "[svelte]": {
