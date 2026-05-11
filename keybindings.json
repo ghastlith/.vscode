@@ -50,9 +50,9 @@
     "when": "",
     "args": {
       "commands": [
-        "editor.action.organizeImports",
         "editor.action.trimTrailingWhitespace",
         "editor.action.insertFinalNewLine",
+        "editor.action.organizeImports",
         "workbench.action.files.save"
       ]
     }
