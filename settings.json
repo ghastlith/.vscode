@@ -57,5 +57,6 @@
   // disable ai
   "chat.agent.enabled": false,
   "chat.disableAIFeatures": true,
+  "git.addAICoAuthor": "off",
   "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
