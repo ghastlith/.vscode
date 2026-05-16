@@ -8,6 +8,9 @@
 
   // theme
   "workbench.colorTheme": "Dark Modern",
+  "workbench.colorCustomizations": {
+    "git.blame.editorDecorationForeground": "#494949"
+  },
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
   "zenMode.restore": false,
@@ -27,7 +30,8 @@
   // git
   "diffEditor.ignoreTrimWhitespace": false,
   "scm.alwaysShowRepositories": true,
-  "gitlens.codeLens.authors.enabled": false,
+  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.template": "${authorName} (${authorDateAgo}) • ${subject}",
 
   // java
   "[java]": {
