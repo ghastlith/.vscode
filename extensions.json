@@ -2,7 +2,6 @@
   "recommendations": [
     "christian-kohler.path-intellisense",
     "docker.docker",
-    "eamodio.gitlens",
     "esbenp.prettier-vscode",
     "github.vscode-github-actions",
     "jock.svg",
